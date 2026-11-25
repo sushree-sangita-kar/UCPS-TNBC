@@ -1,0 +1,17 @@
+# data and outputs are not tracked (public data; outputs are regenerated)
+data/
+results/
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# renv library (renv.lock IS tracked)
+renv/library/
+renv/staging/
+
+# OS files
+.DS_Store
+Thumbs.db
